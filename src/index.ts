@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3001;
 // Middleware
 app.use(cors({
   origin: [
-    'https://yogesh-jat-docker-ai-frontend.vercel.app/',
+    'https://yogesh-jat-docker-ai-frontend.vercel.app',
     'http://localhost:3000'
   ],
   credentials: true,
