@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3001;
 // Middleware
 app.use(cors({
   origin: [
-    'https://yogesh-jat-docker-ai-frontend.vercel.app',
+    'https://yogeshjat-dockerai-client.vercel.app',
     'http://localhost:3000'
   ],
   credentials: true,
@@ -53,7 +53,7 @@ app.use(errorHandler);
 app.listen(PORT, () => {
   console.log(`🚀 DockGen AI Backend running on port ${PORT}`);
   console.log(`📊 Health check: http://localhost:${PORT}/health`);
-  console.log(`🔑 CORS enabled for: https://yogesh-jat-docker-ai-frontend.vercel.app, http://localhost:3000`);
+  console.log(`🔑 CORS enabled for: https://yogeshjat-dockerai-client.vercel.app, http://localhost:3000`);
 });
 
 export default app;
