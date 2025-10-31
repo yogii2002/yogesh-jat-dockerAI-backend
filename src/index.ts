@@ -15,6 +15,7 @@ const PORT = process.env.PORT || 3001;
 app.use(cors({
   origin: [
     'https://yogeshjat-dockerai-client.vercel.app',
+    'https://dev-ops-docker-frontend-new.onrender.com',
     'http://localhost:3000'
   ],
   credentials: true,
